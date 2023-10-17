@@ -6,38 +6,32 @@
     <style>
         body {
             background-color: rgb(253, 204, 166);
-            margin-top: 150px;
+            margin-top: 100px;
+            margin-bottom: 100px;
         }
 
         * {
             cursor: default;
-            margin: 0;
-            padding: 0;
-            font-style: normal;
             font-weight: lighter;
             font-size: 16px;
             font-family: 'Consolas', Consolas, monospace;
             color: rgb(33, 7, 5);
         }
 
+        img {
+            width: 400px;
+        }
+
         table {
-            border: 1px solid;
             padding: 10px;
             margin-left: auto;
             margin-right: auto;
         }
 
-        img {
-            width: 400px;
-        }
-
         tr {
-            border: 1px solid;
             padding: 5px;
         }
-
         td {
-            border: 1px solid;
             padding: 5px;
             width: 380px;
         }
@@ -48,12 +42,31 @@
         .td-right {
             text-align: left;
         }
+        .left-text {
+            padding-left: 25px;
+        }
+        .right-text {
+            padding-right: 25px;
+        }
 
-        #name {
+        .icon {
+            width: 1.5rem;
+            fill: rgb(122, 33, 18);
+        }
+
+        #nick {
             text-align: left;
             font-size: 50px;
             font-weight: bold;
             padding: 15px;
+        }
+
+        #name {
+            font-size: 20px;
+        }
+
+        #mayak {
+            font-style: italic;
         }
 
         
@@ -63,7 +76,7 @@
     <div id="content">
         <table id = "info">
             <tr> 
-                <th id = name colspan = "2">
+                <th id = nick colspan = "2">
                     polytrich
                 </th>
             </tr>
@@ -71,12 +84,15 @@
                 <td class = "td-left">
                     <img src = "images/ris1.png">
                 </td>
-              <td class = "td-right">
-                    полина ткаченко
+              <td class = "td-right left-text">
+                    <div id = name>полина ткаченко</div>
+                    <div>рисую, фотографирую и старательно учусь</div>
               </td>
             </tr>
             <tr>
-              <td class = "td-left">тут будет инфа</td>
+              <td class = "td-left right-text">
+                    тут будет текст
+              </td>
               <td class = "td-right">
                 <img src = "images/ris22.png">
               </td>
@@ -85,7 +101,16 @@
                 <td class = "td-left">
                     <img src = "images/ris3.png">
                 </td>
-                <td class = "td-right">тут будет инфа</td>
+                <td class = "td-right left-text">
+                    <div id = "mayak">
+                        <div>в праздник красьте сегодняшнее число.</div>
+                        <div>творись,</div>
+                        <div>распятью равная магия.</div>
+                        <div>видите —</div>
+                        <div>гвоздями слов</div>
+                        <div>прибит к бумаге я.</div>
+                    </div>
+                </td>
             </tr>
           </table>
     </div>

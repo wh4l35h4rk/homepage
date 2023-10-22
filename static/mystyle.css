@@ -1,0 +1,72 @@
+body {
+    background-color: rgba(255, 187, 151, 0.968);
+    background-image: url('images/noise.png');
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+* {
+    cursor: default;
+    font-weight: lighter;
+    font-size: 14px;
+    font-family: 'Consolas', Consolas, monospace;
+    color: rgb(33, 7, 5);
+}
+
+img {
+    border: 1px solid rgb(122, 33, 18);
+    width: 400px;
+}
+
+table {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr {
+    padding: 10px;
+}
+td {
+    padding: 5px;
+    width: 380px;
+    vertical-align: middle
+}
+
+.td-left {
+    text-align: right;
+}
+.td-right {
+    text-align: left;
+}
+.left-text {
+    padding-left: 25px;
+}
+.centered {
+    text-align: center;
+}
+
+.icon {
+    width: 2rem;
+    fill: rgb(122, 33, 18);
+}
+.icon:hover {
+    fill: rgb(215, 63, 63);
+}
+
+#nick {
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 15px;
+    text-shadow: 2px 2px rgb(215, 63, 63);
+}
+
+#name {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+#mayak {
+    font-style: italic;
+}
